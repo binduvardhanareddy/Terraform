@@ -3,7 +3,7 @@ resource "aws_instance" "myawsserver" {
   instance_type = "t2.nano"
 
   tags = {
-    Name = "Bindu-v2"
+    Name = "Bindu-v3"
     Env = "Prod"
   }
 }
